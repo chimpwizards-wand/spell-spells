@@ -1,6 +1,6 @@
 import Debug from 'debug';
 import { Config } from '@chimpwizards/wand'
-import { CommandDefinition, CommandParameter, CommandArgument } from '@chimpwizards/wand/commons/command/index'
+import { CommandDefinition, CommandParameter, CommandArgument } from '@chimpwizards/wand/commons/command/'
 import { Execute } from '@chimpwizards/wand'
 import { Init } from '@chimpwizards/wand/commands/'
 
