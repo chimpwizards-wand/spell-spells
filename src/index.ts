@@ -1,1 +1,1 @@
-export * from './commands/new/Spells';
+export * from './commands/add/Spell';

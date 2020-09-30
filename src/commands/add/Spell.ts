@@ -2,7 +2,7 @@ import Debug from 'debug';
 import { Config } from '@chimpwizards/wand'
 import { CommandDefinition, CommandParameter, CommandArgument } from '@chimpwizards/wand/commons/command/index'
 import { Execute } from '@chimpwizards/wand'
-import { Init } from '../Init';
+import { Init } from '@chimpwizards/wand/commands/'
 
 const chalk = require('chalk');
 const boxen = require('boxen');
@@ -22,7 +22,8 @@ const debug = Debug("w:cli:commands:init");
 })
 export class Spell extends Init  { 
 
-    @CommandArgument({ description: 'spell name', required: true})
+    @CommandArgument({ description: 'Spell name', name: 'spell-name'})
+    @CommandParameter({ description: 'Spell name'})
     name: string = '';
 
     spells: string[] = []
