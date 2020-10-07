@@ -8,10 +8,10 @@ const debug = Debug("w:cli:commands:init");
     description: 'Add new spell',
     alias: 'l',
     examples: [
-        [`add spell application`, `Add the applicatin spell`],
-        [`add spell application --force`, `Force an update of the application spell`],
-        [`add spell application --release 1.2`, `Install version 1.2 for the application spell`],
-        [`add spell application --no-global`, `Install spell local to current application`],
+        [`spell add application`, `Add the applicatin spell`],
+        [`spell add application --force`, `Force an update of the application spell`],
+        [`spell add application --release 1.2`, `Install version 1.2 for the application spell`],
+        [`spell add application --no-global`, `Install spell local to current application`],
     ]
 })
 export class Spell extends Init  { 
