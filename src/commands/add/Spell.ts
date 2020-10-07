@@ -6,7 +6,7 @@ const debug = Debug("w:cli:commands:init");
 
 @CommandDefinition({ 
     description: 'Add new spell',
-    alias: 's',
+    alias: 'l',
     examples: [
         [`add spell application`, `Add the applicatin spell`],
         [`add spell application --force`, `Force an update of the application spell`],
