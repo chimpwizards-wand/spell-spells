@@ -5,7 +5,7 @@ import { Init } from '@chimpwizards/wand/commands/'
 const debug = Debug("w:cli:commands:init");
 
 @CommandDefinition({ 
-    description: 'Add new spell',
+    description: 'Add new cli extensions',
     alias: 'l',
     examples: [
         [`spell add application`, `Add the applicatin spell`],
